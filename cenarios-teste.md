@@ -12,3 +12,8 @@ Então deve exibir mensagem de erro
 
 ## Caso 3 - Usuário inexistente
 Então deve exibir mensagem de usuário inválido
+
+## Caso 4 - Campo vazio
+Dado que o usuário não preenche login e senha
+Quando tenta acessar
+Então deve exibir mensagem de campos obrigatórios
