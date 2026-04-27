@@ -22,3 +22,17 @@ A API deve retornar uma lista de usuários com os campos corretamente preenchido
 
 ## Ferramenta utilizada
 Postman
+
+## Teste de erro - usuário inexistente
+Endpoint:
+https://jsonplaceholder.typicode.com/users/9999
+
+Validação:
+- Status 404 Not Found
+
+## Teste de criação de usuário
+Método: POST
+
+Validações:
+- Status 201 Created
+- Retorno de ID
