@@ -1,12 +1,24 @@
-# Teste de API - Usuários
+# Teste de API - Listagem de Usuários
 
-Endpoint:
+## Objetivo
+Validar o funcionamento do endpoint de listagem de usuários.
+
+## Endpoint
 https://jsonplaceholder.typicode.com/users
 
-Método:
+## Método
 GET
 
-Validações:
-- Status 200
+## Validações realizadas
+- Status code 200 OK
 - Retorno de lista de usuários
-- Campos: name, email
+- Presença dos campos obrigatórios:
+  - name
+  - email
+  - id
+
+## Resultado esperado
+A API deve retornar uma lista de usuários com os campos corretamente preenchidos.
+
+## Ferramenta utilizada
+Postman
